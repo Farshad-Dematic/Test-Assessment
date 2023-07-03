@@ -14,8 +14,8 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
@@ -28,6 +28,6 @@
       }
     ]
   },
-  "include": ["src/**/*.ts"],
+  "include": ["global.d.ts", "src/**/*.ts"],
   "exclude": []
 }

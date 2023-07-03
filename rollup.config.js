@@ -10,7 +10,14 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 
 export default {
-  input: 'my-element.js',
+  input: [
+    'my-element.js',
+    'my-collapse.js',
+    'my-accordion.js', 
+    'my-accordion-section.js', 
+    'my-accordion-section-header.js', 
+    'custom-element-event.js'
+  ],
   output: {
     file: 'my-element.bundled.js',
     format: 'esm',
